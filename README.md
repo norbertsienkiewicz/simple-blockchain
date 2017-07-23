@@ -1,6 +1,4 @@
-# simple-blockchain
-
-Simple implementation of blockchain.
+# Simple implementation of blockchain.
 
 Each block contains timestamp and index.
 Each block has self-identifying hash.
@@ -8,22 +6,12 @@ Each block has self-identifying hash.
 Each block hash is built with index, timestamp, data, hash of previous blok (like in bitcoin).
 
 
-Transation example:
-```json
-{
-  "from": "71238uqirbfh894-random-public-key-a-alkjdflakjfewn204ij",
-  "to": "93j4ivnqiopvh43-random-public-key-b-qjrgvnoeirbnferinfo",
-  "amount": 3
-}
-```
-
-
 ## Setup
 ```bash
 mkvirtualenv simple-blockchain
 workon simple-blockchain
 cd src
-pip install -R requirements.txt
+pip install -r requirements.txt
 ```
 
 ## How to start server?
